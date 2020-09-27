@@ -1,0 +1,54 @@
+.contactForm {
+    width: 375px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm h3{
+    font: 700 18px Montserrat;
+    line-height: 16px;
+    color: #FFE200;
+}
+
+.contactForm p {
+    text-align: center;
+    font: 400 15px Montserrat;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.contactForm input {
+    margin: 4px;
+    width: 328px;
+    height: 36px;
+    border: 2px solid #99B6CC;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font: 400 15px Montserrat;
+    line-height: 16px;
+    color: #5C7E99;
+    background-color: #FFFFFF;
+}
+
+.contactForm button {
+    cursor: pointer;
+    width: 328px;
+    height: 36px;
+    margin-top: 16px;
+    border: 2px solid #99B6CC;
+    box-sizing: border-box;
+    border-radius: 42px;
+    font: 700 16px Montserrat;
+    line-height: 16px;
+    color: #FFFFFF;
+    background-color: #FFB700;
+}
+
+@media (min-width: 1200px) {
+    .contactForm {
+        margin-top: -20px;
+    }
+}

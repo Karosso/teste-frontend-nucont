@@ -1,0 +1,71 @@
+.essential {
+    width: 100%;
+    height: 505px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(180deg, #FFB700 99.99%, #141414 100%);
+}
+
+.essential h1 {
+    width: 329px;
+    text-align: center;
+    font: 700 24px Montserrat;
+    line-height: 29px;
+    color: #063254;
+}
+
+.essential p {
+    margin: 15px auto;
+    width: 276px;
+    text-align: center;
+    font: 400 18px Montserrat;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.essential .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.essential .button button {
+    cursor: pointer;
+    width: 353px;
+    height: 53px;
+    background-color: #9B51E0;
+    border-radius: 20px;
+    margin: 0;
+    font: 700 16px Open Sans;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+@media (min-width: 1200px) {
+    .essential {
+        height: 356px;
+    }
+    
+    .essential h1 {
+        width: 1010px;
+        font: 700 29px Montserrat;
+        line-height: 35px;
+    }
+    
+    .essential p {
+        width: 1000px;
+        font: 400 18px Montserrat;
+        line-height: 22px;
+    }
+     
+    .essential .button button {
+        cursor: pointer;
+        width: 533px;
+        height: 37px;
+        font: 700 16px Open Sans;
+        line-height: 16px;
+    }
+}

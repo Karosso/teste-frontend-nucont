@@ -1,0 +1,59 @@
+.statistics {
+    width: 375px;
+    max-width: 1350px;
+    margin: auto;
+    height: 225px;
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.statistics h5 {
+    font: 700 16px Montserrat;
+    line-height: 16px;
+    color: #5C7E99;
+}
+
+.statistics button {
+    cursor: pointer;
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+    border: 2px solid #99B6CC;
+    box-sizing: border-box;
+    border-radius: 42px;
+    font: 700 16px Montserrat;
+    line-height: 16px;
+    color: #FFFFFF;
+    background-color: #FFB700;
+}
+
+.statistics img {
+    width: 340px;
+}
+
+@media (min-width: 1200px) {
+    .statistics {
+        padding-left: 0;
+        width: 100%;
+        height: 350px;
+    }
+    
+    .statistics h5 {
+        font: 700 22px Montserrat;
+        line-height: 26px;
+        padding-left: 200px;
+    }
+    
+    .statistics button {
+        width: 328px;
+        height: 36px;
+        margin-left: 200px;
+    }
+
+    .statistics img {
+        width: 1100px;
+        align-self: center;
+    }
+}
