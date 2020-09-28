@@ -27,7 +27,7 @@ export default function Statistics() {
 
             <h5>Google Analytics n° acessos & cliques</h5>
 
-            <img src="/ga.jpg" alt='Google Analytics Report'/>
+            <img src="/ga.png" alt='Google Analytics Report'/>
 
         </div>
     )
